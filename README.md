@@ -10,7 +10,7 @@
 
 - Add .env file which i have shared in email 
 
-- I have added DB sql file in database folder, setup this database in your system and change db setting in .env file
+- I have added openeyes.sql file in database folder, setup this database in your system and change db setting in .env file
 
 - Now you good to go to run the project - run command "php artisan serve" to run the project
 
