@@ -1,32 +1,38 @@
-# openeye
+# OpenEye Project Setup Guide
+# Requirements
 
-# Requirement
- PHP >=8.2
+    PHP >= 8.2
 
-# Steps to setup the project :
-- Firt take clone from "https://github.com/sachin-hadola/openeye.git"
+# Project Setup Steps:
 
-- Run composer install command to setup project
+-    Clone the repository:
+     git clone https://github.com/sachin-hadola/openeye.git
+ 
+-    Run the following command to install dependencies:
+     composer install
 
-- Add .env file which i have shared in email 
+-    Add the .env file (shared via email).
 
-- I have added openeyes.sql file in database folder, setup this database in your system and change db setting in .env file
+-    Import the openeyes.sql file located in the database folder into your local database.Update the database credentials in the .env file accordingly.
 
-- Now you good to go to run the project - run command "php artisan serve" to run the project
+-    Run the project using the following command:
+     php artisan serve
+     Note: If you're using Laragon or a virtual host, running php artisan serve is not required.
 
- NOTE : If you are using laragon or virtual host then no need to run "php artisan serve" command
+# Completed Features:
 
+-    Created a page to add questions along with their respective answers.
 
-# What is done :
-- I have Created the page to create questions and appropriate answer of that question
-- You can create multiple MCQ based on you requirement
-- I have followed PSR standard effectively
-- Used Eloquent relationships effectively
-- Used Laravel Service and Repository Pattern
+-    Support for creating multiple MCQ-type questions.
 
+-    Followed PSR standards throughout the project.
 
-# Pending :
-Multiple question functionality not done as i was facing some issues in validation and it wastage time so not got the change to work on multiple question functionality
-, i have also focused on design in starting time so it was also wastage some time 
+-    Implemented Eloquent relationships effectively.
 
+-    Applied Laravel's Service and Repository patterns for better structure and maintainability.
 
+# Pending Work:
+
+-    The functionality for handling multiple questions at once is still in progress.I encountered validation issues and time constraints, which prevented completion.
+
+-    Additional time was spent on design adjustments early in the project, which affected overall progress.
