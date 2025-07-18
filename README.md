@@ -4,7 +4,7 @@
  PHP >=8.2
 
 # Steps to setup the project :
-- Firt take pull from "https://github.com/sachin-hadola/openeye.git"
+- Firt take clone from "https://github.com/sachin-hadola/openeye.git"
 
 - Run composer install command to setup project
 
@@ -26,6 +26,7 @@
 
 
 # Pending :
-Multiple question functionality not done as i was facing some issues in validation and it wastage time so not got the change to work on multiple question functionality, i have also focused on design in starting time so it was also wastage some time 
+Multiple question functionality not done as i was facing some issues in validation and it wastage time so not got the change to work on multiple question functionality
+, i have also focused on design in starting time so it was also wastage some time 
 
 
